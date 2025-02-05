@@ -1,0 +1,27 @@
+{
+	"name": "hutaodaily",
+	"version": "1.0.0",
+	"description": "Daily Hu Tao pictures via Discord webhook",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FireStreaker2/HutaoDaily.git"
+	},
+	"keywords": [
+		"hutao"
+	],
+	"author": "FireStreaker2",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/FireStreaker2/HutaoDaily/issues"
+	},
+	"homepage": "https://github.com/FireStreaker2/HutaoDaily#readme",
+	"dependencies": {
+		"dotenv": "^16.4.7",
+		"node-cron": "^3.0.3"
+	}
+}
