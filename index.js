@@ -14,7 +14,11 @@ cron.schedule("0 8 * * *", async () => {
 	while (true) {
 		post = posts[Math.floor(Math.random() * posts.length)];
 
-		if (!seen.includes(post.file_url) && post.rating === "general") {
+    // https://i.redd.it/96gqcmznazrb1.png
+		if (
+			!seen.includes(post.file_url) &&
+			(post.rating === "general" || post.rating === "sensitive")
+		) {
 			seen.push(post.file_url);
 			break;
 		}
@@ -39,7 +43,7 @@ cron.schedule("0 8 * * *", async () => {
 	});
 });
 
-cron.schedule("* * * * * *", () => {
+cron.schedule("0 0 1 * *", () => {
 	seen.length = 0;
 });
 
