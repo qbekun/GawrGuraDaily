@@ -16,8 +16,6 @@ cron.schedule("0 8 * * *", async () => {
 
 		if (!seen.includes(post.file_url) && post.rating === "general") {
 			seen.push(post.file_url);
-			console.log(seen);
-			console.log("sent");
 			break;
 		}
 	}
@@ -39,6 +37,10 @@ cron.schedule("0 8 * * *", async () => {
 			],
 		}),
 	});
+});
+
+cron.schedule("* * * * * *", () => {
+	seen.length = 0;
 });
 
 console.log("task scheduled");
