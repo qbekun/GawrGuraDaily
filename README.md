@@ -1,14 +1,14 @@
 <div align="center">
-  <h1>HutaoDaily</h1>
-  <img src="https://raw.githubusercontent.com/FireStreaker2/hutao-dotfiles/refs/heads/main/Pictures/hutao-pfp.png" height="128" />
-  <p>Daily Hu Tao pictures via Discord webhook<p>
+  <h1>Gawr Gura Daily</h1>
+  <img src="https://raw.githubusercontent.com/qbekun/GawrGuraDaily/refs/heads/main/FgNW12YVEAAf--4.png" height="128" />
+  <p>Daily Gawr Gura pictures via Discord webhook<p>
 </div>
 
 # Installation
 
 ```bash
-$ git clone https://github.com/FireStreaker2/HutaoDaily.git
-$ cd HutaoDaily
+$ git clone https://github.com/qbekun/GawrGuraDaily.git
+$ cd GawrGuraDaily
 $ cp .env.example .env
 $ npm i
 $ npm start
