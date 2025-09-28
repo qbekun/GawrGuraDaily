@@ -17,6 +17,7 @@ cron.schedule("0 8 * * *", async () => {
 		if (
 			!seen.includes(post.file_url) &&
 			(post.rating === "general" || post.rating === "sensitive")
+			//(post.rating === "general" || post.rating === "sensitive" || post.rating === "explicit")
 		) {
 			seen.push(post.file_url);
 			break;
@@ -32,7 +33,7 @@ cron.schedule("0 8 * * *", async () => {
 			embeds: [
 				{
 					title: "gawr gura :3",
-					color: 0xff0000,
+					color: 0x33739D,
 					image: {
 						url: post.file_url,
 					},
