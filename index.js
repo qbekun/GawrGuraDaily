@@ -31,7 +31,7 @@ cron.schedule("0 8 * * *", async () => {
 		body: JSON.stringify({
 			embeds: [
 				{
-					title: "hu tao :3",
+					title: "gawr gura :3",
 					color: 0xff0000,
 					image: {
 						url: post.file_url,
