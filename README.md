@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Gawr Gura Daily</h1>
-  <img src="https://raw.githubusercontent.com/qbekun/GawrGuraDaily/refs/heads/main/FgNW12YVEAAf--4.png" height="128" />
+  <img src="https://raw.githubusercontent.com/qbekun/qbekun/refs/heads/main/gawrgura_FgNW12YVEAAf--4.png" height="128" />
   <p>Daily Gawr Gura pictures via Discord webhook<p>
 </div>
 
