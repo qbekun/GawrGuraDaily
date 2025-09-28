@@ -32,4 +32,6 @@ WEBHOOK="" # Discord webhook
 
 # License
 
-[MIT](https://github.com/FireStreaker2/HutaoDaily/blob/main/LICENSE)
+This project is licensed under the [MIT License](https://github.com/FireStreaker2/HutaoDaily/blob/main/LICENSE).
+
+Originally based on [HutaoDaily](https://github.com/FireStreaker2/HutaoDaily) by FireStreaker2.
